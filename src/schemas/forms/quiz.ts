@@ -13,7 +13,7 @@ export const quizCreationSchema = z.object({
   amount: z.number().min(1).max(10),
 });
 
-// export const chechAnswerSchema = z.object({
-//   questionId: z.string(),
-//   answerId: z.string(),
-// })
+export const chechAnswerSchema = z.object({
+  questionId: z.string(),
+  answerId: z.string(),
+})
