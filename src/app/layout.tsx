@@ -9,7 +9,7 @@ import { Toaster } from "@/components/ui/toaster";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Quiz Quick",
+  title: "Quiz-Quick",
   description: "Quiz yourself on anything!",
 };
 
